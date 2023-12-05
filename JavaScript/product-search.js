@@ -84,10 +84,10 @@ recognition.onresult = function (event) {
     handleSearch();
   }
   if (command == "go home page") {
-    if(window.location.href = '../pages/home.html'){
+    if(window.location.href = '../home.html'){
       
     }else{
-      window.open('../pages/home.html', '_blank');
+      window.open('../home.html', '_blank');
     }
     
   } else {
